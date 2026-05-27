@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #0f172a; /* Sleek dark mode background */
-    color: #f8fafc;
+    background-color: #000000; /* Sleek dark mode background */
+    color: #0a06e5;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -28,11 +28,11 @@ body {
 .section-header h2 {
     font-size: 2.2rem;
     margin-bottom: 10px;
-    color: #fff;
+    color: #e3fb07;
 }
 
 .section-header p {
-    color: #94a3b8;
+    color: #ff0e0e;
 }
 
 /* FLEXBOX ENGINE */
@@ -45,8 +45,8 @@ body {
 
 /* Box Styling */
 .feature-box {
-    background-color: #1e293b;
-    border: 1px solid #334155;
+    background-color: #fbff00;
+    border: 6px solid #f40505;
     padding: 30px;
     border-radius: 12px;
     flex: 1;                   /* Forces all three columns to have equal width */
@@ -55,7 +55,7 @@ body {
 
 .feature-box:hover {
     transform: translateY(-8px);
-    border-color: #3b82f6;
+    border-color: #26ff00;
 }
 
 .icon-wrapper {
@@ -69,9 +69,9 @@ body {
     margin-bottom: 20px;
 }
 
-.icon-blue { background-color: rgba(59, 130, 246, 0.15); }
-.icon-green { background-color: rgba(34, 197, 94, 0.15); }
-.icon-purple { background-color: rgba(168, 85, 247, 0.15); }
+.icon-blue { background-color: rgba(7, 251, 255, 0.682); }
+.icon-green { background-color: rgba(62, 219, 30, 0.675); }
+.icon-purple { background-color: rgba(250, 255, 225, 0.767); }
 
 .feature-box h3 {
     font-size: 1.3rem;
@@ -79,7 +79,7 @@ body {
 }
 
 .feature-box p {
-    color: #94a3b8;
+    color: #f0150d;
     font-size: 0.95rem;
     line-height: 1.6;
 }
